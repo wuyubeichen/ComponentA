@@ -1,0 +1,41 @@
+PODS:
+  - ComponentA (1.0.0):
+    - ComponentMediator (~> 1.0.0)
+    - Masonry
+  - ComponentMediator (1.0.0):
+    - ComponentMediator/Mediator (= 1.0.0)
+    - ComponentMediator/RouterBlock (= 1.0.0)
+    - ComponentMediator/RouterProtocol (= 1.0.0)
+  - ComponentMediator/Mediator (1.0.0):
+    - CTMediator
+  - ComponentMediator/RouterBlock (1.0.0):
+    - MGJRouter (~> 0.9.0)
+  - ComponentMediator/RouterProtocol (1.0.0)
+  - CTMediator (46)
+  - Masonry (1.1.0)
+  - MGJRouter (0.9.3)
+
+DEPENDENCIES:
+  - ComponentA (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ComponentMediator
+    - CTMediator
+    - Masonry
+    - MGJRouter
+
+EXTERNAL SOURCES:
+  ComponentA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ComponentA: 6841440656d29ebc9d08ce472d1d20efbe5da477
+  ComponentMediator: 03e476e3a608d07e23c4ebe640254caa35a081ca
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+
+PODFILE CHECKSUM: cc170344e9b464e089d8cad3507c6429879b5cc0
+
+COCOAPODS: 1.10.1

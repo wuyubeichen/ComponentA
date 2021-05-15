@@ -7,6 +7,7 @@
 //
 
 #import "ZSViewController.h"
+#import "ComponentAVC.h"
 
 @interface ZSViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
